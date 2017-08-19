@@ -19,5 +19,4 @@ function Ground(x,y, length = 1, depth = 1){
     this.sprite = createSprite(x + (length-x)/2,y + (depth-y)/2,0, 0);
     this.sprite.immovable =true;
     this.sprite.setCollider("rectangle",0,0,length-x + 50,depth-y + 50);
-    this.sprite.debug = true;
 }
